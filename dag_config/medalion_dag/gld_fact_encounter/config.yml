@@ -1,0 +1,4 @@
+task_upstreams:
+  - gld_dim_patient
+  - gld_dim_payer
+  - slv_encounters

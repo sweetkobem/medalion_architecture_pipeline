@@ -1,0 +1,16 @@
+schedule_interval: 0 1 * * *
+default_args:
+  owner: test@test.com
+  emails: 
+    - test@test.com
+  tags:
+    - test
+  depends_on_past: False
+  start_date: '2022-01-01'
+  end_date: '2022-01-12'
+  priority_weight: 30
+  sla: 30
+  execution_timeout: 7200
+  concurrency: 4
+  max_active_runs: 1
+  depend_on_past: True

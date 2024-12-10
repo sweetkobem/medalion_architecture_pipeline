@@ -1,0 +1,3 @@
+task_upstreams:
+  - gld_fact_encounter
+  - gld_fact_procedure
